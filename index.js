@@ -13,8 +13,8 @@ message.channel.send("hub.stryde.tk : 19132")
 });
 
 bot.on("message", (message) => {
-if(message.content === "~youtube") {
-message.channel.send("N/A")
+if(message.content === "~apply") {
+message.channel.send("https://goo.gl/8oknFd")
  }
  });
  
@@ -28,7 +28,7 @@ bot.on("message", (message) => {
 if(message.content === "~help") {
 console.log("Log")
 message.channel.send(`${message.author.username}` + ", I Have Sent You The Commands 📪")
-message.author.send("Please specify a module that you would like to look up:\n 1. ~hub ``hub.stryde.tk : 19132``\n 2. ~youtube ``N/A``\n 3. ~discord ``Join us on StrydeNetwork https://discord.gg/j9KJ3fy & Have Fun!``\n\n Powered By ``ModdingTwinz#4560``")
+message.author.send("Please specify a module that you would like to look up:\n 1. ~hub ``hub.stryde.tk : 19132``\n 2. ~apply ``Apply today via https://goo.gl/8oknFd``\n 3. ~discord ``Join us on StrydeNetwork https://discord.gg/j9KJ3fy & Have Fun!``\n\n Powered By ``ModdingTwinz#4560``")
 }
 });
 
