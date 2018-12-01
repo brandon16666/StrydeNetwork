@@ -13,6 +13,12 @@ message.channel.send("hub.stryde.tk : 19132")
 });
 
 bot.on("message", (message) => {
+if(message.content === "~report") {
+message.channel.send("Is somebody hacking/cheating? do -new")
+}
+});
+
+bot.on("message", (message) => {
 if(message.content === "~apply") {
 message.channel.send("https://goo.gl/8oknFd")
  }
