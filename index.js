@@ -3,7 +3,7 @@ const bot = new Discord.Client()
 bot.on("ready", () => {
 console.log(`${bot.user.username}` + "is online")
 
-bot.user.setActivity("hub.stryde.tk", {type: "STREAMING"})
+bot.user.setActivity("hub.stryde.tk : ~help", {type: "STREAMING"})
 });
 
 bot.on("message", (message) => {
